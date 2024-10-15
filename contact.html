@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Linguativa é uma plataforma de cursos online que oferece aprendizado interativo e acessível para todos os níveis.">
+  <title>Linguativa</title>
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="static/css/bootstrap_custom.css">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/fonts/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header class="border-bottom py-2 sticky-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="static/img/logo.png" alt="Linguativa Logo" width="40" height="40" class="d-inline-block me-2">
+          Linguativa
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prices.html">Preços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Ajuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contato</a>
+            </li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Agendar uma aula <i class="bi ps-1 bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contact">
+    <section class="contact-us py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center flex-column">
+            <h2 class="fw-bold display-3">Fale Conosco</h2>
+            <p>Se você tiver alguma dúvida sobre nossos cursos ou não souber qual plano é o mais adequado para você,
+              entre
+              em contato com nossa equipe e agende uma chamada.</p>
+            <div class="d-flex align-items-center mb-3">
+              <div class="me-3">
+                <a href="tel:+6699849439" class="btn btn-primary">Ligue para nós<br> (669) 984-9439</a>
+              </div>
+              <div>
+                <a href="mailto:info@linguativa.br" class="btn btn-outline-primary">Envie um e-mail<br>
+                  info@linguativa.br</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 bg-secondary p-4 rounded">
+            <h4 class="fw-bold">Vamos Conversar <span role="img" aria-label="wave">👋</span></h4>
+            <p>Se você tiver alguma dúvida sobre nossos produtos, preencha o formulário abaixo e ajudaremos você.</p>
+            <form action="thanks_form.php" method="POST">
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="name" class="form-label">Seu nome*</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" required>
+                </div>
+                <div class="col">
+                  <label for="email" class="form-label">Seu e-mail*</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail"
+                    required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="topic" class="form-label">Escolha um tópico*</label>
+                <select class="form-select" id="topic" name="topic" required>
+                  <option selected disabled>Selecione um tópico</option>
+                  <option value="support">Suporte</option>
+                  <option value="pricing">Preços</option>
+                  <option value="courses">Cursos</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensagem*</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Escreva sua mensagem"
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Fale Conosco</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offices py-5 bg-light">
+      <div class="container">
+        <h2 class="fw-bold mb-3">Nossos escritórios</h2>
+        <p class="mb-4">Cidades incríveis, escritórios modernos. Explore o mundo da Linguativa.</p>
+
+        <div class="row">
+          <!-- Vancouver Office -->
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="d-flex justify-content-center">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.9660014138856!2d-60.01333620531265!3d-3.1126932302187735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c0545311cdd3f%3A0x1c9c05834f78cf5a!2sThe%20Office!5e0!3m2!1sru!2sru!4v1726755330238!5m2!1sru!2sru"
+                  width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Escritório de Manaus</h5>
+                <p class="card-text">Av. Mário Ypiranga, 315 - Adrianópolis</p>
+                <a href="https://maps.app.goo.gl/mcc4cbgtq9F3tVDT9" target="_blank"
+                  class="btn btn-outline-primary">Abrir no Google
+                  Maps</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- San Francisco Office -->
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="d-flex justify-content-center">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.0030566966481!2d-60.033095521277865!3d-3.0881464788233437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1aa6aefd3bc1%3A0x49c9fcf64113539d!2sCetro%20Assessoria%20em%20Gest%C3%A3o%20Ltda.!5e0!3m2!1sru!2sru!4v1726755687112!5m2!1sru!2sru"
+                  width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Escritório de Manaus</h5>
+                <p class="card-text">R. Brg. João Camarão, 226 - Dom Pedro</p>
+                <a href="https://maps.app.goo.gl/P9CioT5xqEUCYp986" target="_blank"
+                  class="btn btn-outline-primary">Abrir no Google
+                  Maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Linguativa</h5>
+          <p>Sobre a Linguativa</p>
+          <p>A Linguativa é uma plataforma de cursos online que oferece aprendizado interativo e acessível para todos os
+            níveis. Com anos de experiência, proporcionamos uma experiência de aprendizado única e eficaz.</p>
+          <a href="about.html" class="btn btn-outline-light btn-sm mb-4">Saiba mais <i
+              class="bi ps-1 bi-arrow-right"></i></a>
+        </div>
+        <div class="col-md-4">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="courses.html" class="text-light">Cursos</a></li>
+            <li><a href="prices.html" class="text-light">Preços</a></li>
+            <li><a href="about.html" class="text-light">Sobre nós</a></li>
+            <li><a href="help.html" class="text-light">Ajuda</a></li>
+            <li><a href="contact.html" class="text-light">Contato</a></li>
+            <li><a href="privacy-policy.html" class="text-light">Política de Privacidade</a></li>
+            <li><a href="terms-conditions.html" class="text-light">Termos de Serviço</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col text-center">
+          <p class="mb-0">© 2024 Linguativa. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="static/js/bootstrap.bundle.js"></script>
+  <script src="static/js/main.js"></script>
+</body>
+
+</html>
